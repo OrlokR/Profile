@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Archer Level I Log
+Author: Orlok
+Version 1.0
+Profile Order:LITTLE LADYBUG  	/ CENTRAL SHROUD;
+              ROSELET	          / CENTRAL SHROUD; 
+              WATER SPRITE     	/ CENTRAL SHROUD;
+              BLACK EFT        	/ CENTRAL SHROUD;
+              ANOLE	            / CENTRAL SHROUD; 
+              TRICKSTER IMP     /	CENTRAL SHROUD;
+              FOREST FUNGUAR    /	CENTRAL SHROUD;
+              MIDGE SWARM      	/ NORTH SHROUD
+              GROUND SQUIRREL   /	NORTHSHROUD 
+              MITELING          /	NORTHSHROUD 
+-->
+
+<Profile>
+  <Name>ArcherHunter</Name>
+  <KillRadius>50</KillRadius>
+  <!-->
+The area the profile will scout:
+<-->
+
+  <!-->Ladybug<-->
+  <GrindAreas>
+    <GrindArea name="Archer_1_0">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="163.4073, -1.275483, -131.3364" name="Archer_1_0" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="49" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Ground Squirrel<-->
+    <GrindArea name="Archer_1_1">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="67.52578, 4.259843, -208.9212" name="Archer_1_1" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="37" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+    
+    <!-->Forest Funguar<-->  
+    <GrindArea name="Archer_1_2">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="163.4073, -1.275483, -131.3364" name="Archer_1_2" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="47" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Miteling<-->
+    <GrindArea name="Archer_1_3">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="165.8598, -27.60709, 286.9352" name="Archer_1_3" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="9" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Midge Swarm<-->
+    <GrindArea name="Archer_1_4">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="314.9825, -11.5849, 154.9959" name="Archer_1_4" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="118" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Water Sprite<-->
+    <GrindArea name="Archer_1_5">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="233.3508, -12.29875, -24.44182" name="Archer_1_5" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="56" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Black Eft<-->
+    <GrindArea name="Archer_1_6">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="233.3508, -12.29875, -24.44182" name="Archer_1_6" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="196" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Anole<-->
+    <GrindArea name="Archer_1_7">
+      <Hotspots>
+        <HotSpot Radius="100" XYZ="455.3217, 15.2918, -85.36971" name="Archer_1_7" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="120" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+
+    <!-->Trickster Imp<-->
+    <GrindArea name="Archer_1_8">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="301.3589, 16.19797, 156.8899" name="Archer_1_8" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="21" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Roselet<-->
+    <GrindArea name="Archer_1_9">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="58.55633, -13.63178, 158.0154" name="Archer_1_9" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="22" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+    
+  </GrindAreas>
+
+
+
+
+
+  <Order>
+    <If Condition="not HuntRankCompleted(ClassJobType.Archer,1)">
+      <If Condition="not HuntEntryCompleted(ClassJobType.Archer,0)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Archer_1_0" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Archer,0)" />
+      </If>
+      
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Archer,1)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Archer_1_1" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Archer,1)" />
+      </If>
+
+
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Archer,2)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Archer_1_2" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Archer,2)" />
+      </If>
+      
+      
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Archer,3)">
+        <If Condition="not IsOnMap(154)">
+          <TeleportTo Name="Fallgourd Float" AetheryteId="7" />
+        </If>
+        <Grind grindRef="Archer_1_3" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Archer,3)" />
+      </If>
+
+
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Archer,4)">
+        <If Condition="not IsOnMap(154)">
+          <TeleportTo Name="Fallgourd Float" AetheryteId="7" />
+        </If>
+        <Grind grindRef="Archer_1_4" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Archer,4)" />
+      </If>
+      
+      
+      
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Archer,5)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Archer_1_5" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Archer,5)" />
+      </If>
+      
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Archer,6)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Archer_1_6" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Archer,6)" />
+      </If>
+
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Archer,7)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Archer_1_7" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Archer,7)" />
+      </If>
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Archer,8)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Archer_1_8" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Archer,8)" />
+      </If>
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Archer,9)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Archer_1_9" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Archer,9)" />
+      </If>
+      
+    </If>
+  </Order>
+  <!-->
+This profile has been completed! Feel free to donate @ YoelR@Verizon.net for more profiles! 
+	<-->
+</Profile>
