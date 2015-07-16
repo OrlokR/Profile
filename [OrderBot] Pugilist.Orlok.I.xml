@@ -19,19 +19,19 @@ The area the profile will scout:
         <HotSpot Radius="90" XYZ="-23.37355, 7.137969, 312.6288" name="Pugilist_1_0" />
       </Hotspots>
       <TargetMobs>
-        <TargetMob Id="262" />
+        <TargetMob Id="632" />
       </TargetMobs>
       <MinLevel>1</MinLevel>
       <MaxLevel>50</MaxLevel>
     </GrindArea>
-
+    
     <!-->Huge Hornet /Central Thanalan<-->
     <GrindArea name="Pugilist_1_1">
       <Hotspots>
         <HotSpot Radius="80" XYZ="-23.37355, 7.137969, 312.6288" name="Pugilist_1_1" />
       </Hotspots>
       <TargetMobs>
-        <TargetMob Id="632" />
+        <TargetMob Id="262" />
       </TargetMobs>
       <MinLevel>1</MinLevel>
       <MaxLevel>50</MaxLevel>
