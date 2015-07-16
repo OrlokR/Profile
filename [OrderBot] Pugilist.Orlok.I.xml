@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Archer Level I Log
+Pugilist Level I Log
 Author: Orlok
 Version 1.0
-Profile Order:
 -->
 <Profile>
   <Name>PugilistHunter</Name>
@@ -124,22 +123,19 @@ The area the profile will scout:
     </GrindArea>
 
 
+
     <!-->Sun Midge Swarm<-->
-    <GrindArea name="Pugilist_1_9">
+    <GrindArea name="Pugilist_1_9_0">
       <Hotspots>
-        <HotSpot Radius="80" XYZ="146.66, 51.97289, -134.8906" name="Pugilist_1_9" />
+        <HotSpot Radius="80" XYZ="146.66, 51.97289, -134.8906" name="Pugilist_1_9_0" />
       </Hotspots>
       <TargetMobs>
         <TargetMob Id="298" />
       </TargetMobs>
       <MinLevel>1</MinLevel>
       <MaxLevel>50</MaxLevel>
-    </GrindArea>
-
-    <!-->Desert Peiste<-->
-    <GrindArea name="Pugilist_1_10">
       <Hotspots>
-        <HotSpot Radius="80" XYZ="146.66, 51.97289, -134.8906" name="Pugilist_1_10" />
+        <HotSpot Radius="80" XYZ="146.66, 51.97289, -134.8906" name="Pugilist_1_9_1" />
       </Hotspots>
       <TargetMobs>
         <TargetMob Id="305" />
@@ -147,11 +143,13 @@ The area the profile will scout:
       <MinLevel>1</MinLevel>
       <MaxLevel>50</MaxLevel>
     </GrindArea>
+    
+
 
     <!-->Eft<-->
-    <GrindArea name="Pugilist_1_11">
-      <Hotspots>
-        <HotSpot Radius="80" XYZ="75.37923, -2, -129.9729" name="Pugilist_1_11" />
+    <GrindArea name="Pugilist_1_9_1">
+    <Hotspots>
+        <HotSpot Radius="80" XYZ="75.37923, -2, -129.9729" name="Pugilist_1_9_1" />
       </Hotspots>
       <TargetMobs>
         <TargetMob Id="289" />
@@ -163,6 +161,10 @@ The area the profile will scout:
 
 
 
+
+
+  
+  
 
 
   <Order>
@@ -255,40 +257,23 @@ The area the profile will scout:
 
 
 
-
-
-
-
-
-
-
       <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,9)">
         <If Condition="not IsOnMap(140)">
           <TeleportTo Name="Horizon" AetheryteId="17" />
         </If>
-        <Grind grindRef="Pugilist_1_9" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,9)" />
+        <Grind grindRef="Pugilist_1_9_0" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Pugilist, 9,0)" />
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Pugilist_1_9_1" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Pugilist, 9,2)" />
       </If>
-
-
-  <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,10)">
-    <If Condition="not IsOnMap(140)">
-      <TeleportTo Name="Horizon" AetheryteId="17" />
     </If>
-    <Grind grindRef="Pugilist_1_10" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,10)" />
-  </If>
-
-  </If>
   </Order>
-
-  <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,11)">
-    <If Condition="not IsOnMap(141)">
-      <TeleportTo Name="Black Brush Station" AetheryteId="53" />
-    </If>
-    <Grind grindRef="Pugilist_1_11" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,11)" />
-  </If>
-
 
   <!-->
 This profile has been completed! Feel free to donate @ YoelR@Verizon.net for more profiles! 
 	<-->
 </Profile>
+
+
+
