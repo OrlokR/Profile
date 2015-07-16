@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Archer Level I Log
+Author: Orlok
+Version 1.0
+Profile Order:
+-->
+<Profile>
+  <Name>PugilistHunter</Name>
+  <KillRadius>50</KillRadius>
+  <!-->
+The area the profile will scout:
+<-->
+
+  <!-->Star Marmot /Central Thanalan<-->
+  <GrindAreas>
+    <GrindArea name="Pugilist_1_0">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="-23.37355, 7.137969, 312.6288" name="Pugilist_1_0" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="262" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Huge Hornet /Central Thanalan<-->
+    <GrindArea name="Pugilist_1_1">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-23.37355, 7.137969, 312.6288" name="Pugilist_1_1" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="632" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Cactuar /Central Thanalan<-->
+    <GrindArea name="Pugilist_1_2">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="346.9532, 73.64623, 184.8839" name="Pugilist_1_2" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="287" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Snapping Shrew <-->
+    <GrindArea name="Pugilist_1_3">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="32.9749, -0.1602144, 207.1806" name="Pugilist_1_3" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="318" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Orobon <-->
+    <GrindArea name="Pugilist_1_4">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="3.969213, -7.011875, 169.3718" name="Pugilist_1_4" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="308" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Nesting Buzzard<-->
+    <GrindArea name="Pugilist_1_5">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-40.77232, 49.65291, 217.6478" name="Pugilist_1_5" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="299" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Spriggan Graverobber<-->
+    <GrindArea name="Pugilist_1_6">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-209.0399, -22.95834, 75.90894" name="Pugilist_1_6" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="317" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Goblin Mugger<-->
+    <GrindArea name="Pugilist_1_7">
+      <Hotspots>
+        <HotSpot Radius="100" XYZ="-114.0734, 49.93923, 227.6229" name="Pugilist_1_7" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="283" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+
+    <!-->Sandtoad<-->
+    <GrindArea name="Pugilist_1_8">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-30.45653, 21.53831, 113.7747" name="Pugilist_1_8" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="265" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Sun Midge Swarm<-->
+    <GrindArea name="Pugilist_1_9">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="146.66, 51.97289, -134.8906" name="Pugilist_1_9" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="298" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Desert Peiste<-->
+    <GrindArea name="Pugilist_1_10">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="146.66, 51.97289, -134.8906" name="Pugilist_1_10" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="305" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Eft<-->
+    <GrindArea name="Pugilist_1_11">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="75.37923, -2, -129.9729" name="Pugilist_1_11" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="289" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+  </GrindAreas>
+
+
+
+
+
+  <Order>
+   
+    <If Condition="not HuntRankCompleted(ClassJobType.Pugilist,1)">
+      <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,0)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Pugilist_1_0" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Pugilist,0)" />
+      </If>
+      
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,1)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Pugilist_1_1" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,1)" />
+      </If>
+
+
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,2)">
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
+        </If>
+        <Grind grindRef="Pugilist_1_2" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,2)" />
+      </If>
+      
+      
+    
+      
+      
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,3)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Pugilist_1_3" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,3)" />
+      </If>
+
+
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,4)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Pugilist_1_4" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,4)" />
+      </If>
+      
+      
+      
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,5)">
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
+        </If>
+        <Grind grindRef="Pugilist_1_5" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,5)" />
+      </If>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,6)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Pugilist_1_6" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,6)" />
+      </If>
+
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,7)">
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
+        </If>
+        <Grind grindRef="Pugilist_1_7" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,7)" />
+      </If>
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,8)">
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
+        </If>
+        <Grind grindRef="Pugilist_1_8" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,8)" />
+      </If>
+
+
+
+
+
+
+
+
+
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,9)">
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
+        </If>
+        <Grind grindRef="Pugilist_1_9" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,9)" />
+      </If>
+
+
+  <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,10)">
+    <If Condition="not IsOnMap(140)">
+      <TeleportTo Name="Horizon" AetheryteId="17" />
+    </If>
+    <Grind grindRef="Pugilist_1_10" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,10)" />
+  </If>
+
+  </If>
+  </Order>
+
+  <If Condition="not HuntEntryCompleted(ClassJobType.Pugilist,11)">
+    <If Condition="not IsOnMap(141)">
+      <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+    </If>
+    <Grind grindRef="Pugilist_1_11" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Pugilist,11)" />
+  </If>
+
+
+  <!-->
+This profile has been completed! Feel free to donate @ YoelR@Verizon.net for more profiles! 
+	<-->
+</Profile>
