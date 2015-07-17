@@ -34,11 +34,11 @@ for the quest line(s) & extra gil:
 -->
 
 <!DOCTYPE Profile [
-  <!ENTITY Muddy_Water "0">       
+  <!ENTITY Muddy_Water "0">
   <!ENTITY Muddy_Water_HQ "0">
 
   <!ENTITY Bone_Chip "0">
-  <!ENTITY Bone_Chip_HQ "0">
+  <!ENTITY Bone_Chip_HQ "99">
 
   <!ENTITY Copper_Ore "0">
   <!ENTITY Copper_Ore_HQ "0">
@@ -99,7 +99,7 @@ for the quest line(s) & extra gil:
 
   <!ENTITY Cobalt_Ore "0">
   <!ENTITY Cobalt_Ore_HQ "0">
-  
+
 ]>
 
 
@@ -158,9 +158,35 @@ for the quest line(s) & extra gil:
       <WaitTimer WaitTime="5"/>
     </If>
   </Order>
-  
-  
-  
+
+
+  <Name>Tin Ore</Name>
+  <KillRadius>50</KillRadius>
+
+  <Order>
+    <If Condition="&Tin_Ore; &gt; 0 or &Tin_Ore_HQ; &gt; 0">
+      <If Condition="not IsOnMap(653)">
+        <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        <WaitTimer WaitTime="5"/>
+      </If>
+      <LogMessage Message="Starting harvest of &Tin_Ore; Tin Ore and &Tin_Ore_HQ; HQ Tin Ore."/>
+      <Gather While="not HasAtLeast(5107, &Tin_Ore;) or not HqHasAtLeast(5107, &Tin_Ore_HQ;)">
+        <GatherObject>Mineral Deposit</GatherObject>
+        <HotSpots>
+          <Hotspot Radius="90" XYZ="-66.32383, -4.023734, 45.27408"/>
+        </HotSpots>
+        <Slot>5</Slot>
+        <GatheringSkillOrder>
+          <GatheringSkill ActionId="242" SpellName="Unearth" TimesToCast="1"/>
+        </GatheringSkillOrder>
+      </Gather>
+      <LogMessage Message="Bone Chip harvest complete. Moving to next task."/>
+      <WaitTimer WaitTime="5"/>
+    </If>
+  </Order>
+
+
+
 
 
 
