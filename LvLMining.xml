@@ -121,7 +121,7 @@ for the quest line(s) & extra gil:
       <Gather While="not HasAtLeast(5488, &Muddy_Water;) or not HqHasAtLeast(5488, &Muddy_Water_HQ;)">
         <GatherObject>Mineral Deposit</GatherObject>
         <HotSpots>
-          <Hotspot Radius="90" XYZ="264.2455, 56.165, 216.7509"/>
+          <Hotspot Radius="90" XYZ="-128.7192, 3.458603, 215.4033"/>
         </HotSpots>
         <Slot>5</Slot>
         <GatheringSkillOrder>
