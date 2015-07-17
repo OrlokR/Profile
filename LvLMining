@@ -1,0 +1,141 @@
+<!--
+Author: Orlok
+Version: 1.0
+Profile: Mining 1-50 Level Profile
+Instructions: Change the variables within the
+profile entity. Set the number of resources
+you wish to collect.
+
+Please review the following recommendations 
+for the quest line(s) & extra gil: 
+
+20 Muddy Water
+70 Bone Chip (50 for the quest)
+99 Copper Ore (Optional)
+20 Tin Ore, Zinc Ore, Soiled Femur,
+20 Raw Sunstone.
+119 Obsidian (99 for quest)
+20 Iron & Copper Sand, Rocksalt, Ragstone.
+
+40 Cinnabar (20 for the quest)
+99 Iron Ore (Even more preferably!)
+20 Raw Sphene, Raw Danburite, Sunrise Tellin, Mudstone
+20 Raw Malachite, Raw Flourite
+99 Alumen
+99 Grade 1 Carbonized Matter (For the Quest, x2 for Botany)
+20 of each Elemental Stone (Earth Rock, Ice Rock, Fire Rock, Wind Rock, Water Rock)
+20 extra Effervescent Water, Silver Sand
+99 Silver Ore
+100 Wyvern Obsidian , 100 Silver Ore
+100 Mythril Ore
+100 Black Alumen
+100 Electrum Ore
+100 Cobalt Ore
+-->
+
+<!DOCTYPE Profile [
+  <!ENTITY Muddy_Water "0">       
+  <!ENTITY Muddy_Water_HQ "0">
+
+  <!ENTITY Bone_Chip "0">
+  <!ENTITY Bone_Chip_HQ "0">
+
+  <!ENTITY Copper_Ore "0">
+  <!ENTITY Copper_Ore_HQ "0">
+
+  <!ENTITY Tin_Ore "0">
+  <!ENTITY Tin_Ore_HQ "0">
+
+  <!ENTITY Zinc_Ore "0">
+  <!ENTITY Zinc_Ore_HQ "0">
+
+  <!ENTITY Soiled_Femur "0">
+  <!ENTITY Soiled_Femur_HQ "0">
+
+  <!ENTITY Raw_Sunstone "0">
+  <!ENTITY Raw_Sunstone_HQ "0">
+
+  <!ENTITY Obsidian "0">
+  <!ENTITY Obsidian_HQ "0">
+
+  <!ENTITY Iron_Ore "0">
+  <!ENTITY Iron_Ore_HQ "0">
+
+  <!ENTITY Copper_Sand "0">
+  <!ENTITY Copper_Sand_HQ "0">
+
+  <!ENTITY Rocksalt "0">
+  <!ENTITY Rocksalt_HQ "0">
+
+  <!ENTITY Ragstone "0">
+  <!ENTITY Ragstone_HQ "0">
+
+  <!ENTITY Cinnabar "0">
+  <!ENTITY Cinnabar_HQ "0">
+
+  <!ENTITY Raw_Sphene "0">
+  <!ENTITY Raw_Sphene_HQ "0">
+
+  <!ENTITY Alumen "0">
+  <!ENTITY Alumen_HQ "0">
+
+  <!ENTITY Grade_1_Carbonized_Matter "0">
+  <!ENTITY Grade_1_Carbonized_Matter_HQ "0">
+
+  <!ENTITY Silver_Ore "0">
+  <!ENTITY Silver_Ore_HQ "0">
+
+  <!ENTITY Wyvern_Obsidian "0">
+  <!ENTITY Wyvern_Obsidian_HQ "0">
+
+  <!ENTITY Mythril_Ore "0">
+  <!ENTITY Mythril_Ore_HQ "0">
+
+  <!ENTITY Black_Alumen "0">
+  <!ENTITY Black_Alumen_HQ "0">
+
+  <!ENTITY Electrum_Ore "0">
+  <!ENTITY Electrum_Ore_HQ "0">
+
+  <!ENTITY Cobalt_Ore "0">
+  <!ENTITY Cobalt_Ore_HQ "0">
+  
+]>
+
+
+
+
+<Profile>
+
+
+  <Name>Muddy Water</Name>
+  <KillRadius>50</KillRadius>
+
+  <Order>
+    <If Condition="&Muddy_Water; &gt; 0 or &Muddy_Water_HQ; &gt; 0">
+      <If Condition="not IsOnMap(653)">
+        <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        <WaitTimer WaitTime="5"/>
+      </If>
+      <LogMessage Message="Starting harvest of &Muddy_Water; Muddy Water and &Muddy_Water_HQ; HQ Muddy Water."/>
+      <Gather While="not HasAtLeast(5488, &Muddy_Water;) or not HqHasAtLeast(5488, &Muddy_Water_HQ;)">
+        <GatherObject>Mineral Deposit</GatherObject>
+        <HotSpots>
+          <Hotspot Radius="90" XYZ="264.2455, 56.165, 216.7509"/>
+        </HotSpots>
+        <Slot>5</Slot>
+        <GatheringSkillOrder>
+          <GatheringSkill ActionId="242" SpellName="Unearth" TimesToCast="1"/>
+        </GatheringSkillOrder>
+      </Gather>
+      <LogMessage Message="Muddy Water harvest complete. Moving to next task."/>
+      <WaitTimer WaitTime="5"/>
+    </If>
+  </Order>
+
+
+
+
+
+
+</Profile>
