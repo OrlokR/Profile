@@ -134,6 +134,35 @@ for the quest line(s) & extra gil:
   </Order>
 
 
+  <Name>Bone Chip</Name>
+  <KillRadius>50</KillRadius>
+
+  <Order>
+    <If Condition="&Bone_Chip; &gt; 0 or &Bone_Chip_HQ; &gt; 0">
+      <If Condition="not IsOnMap(653)">
+        <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        <WaitTimer WaitTime="5"/>
+      </If>
+      <LogMessage Message="Starting harvest of &Bone_Chip; Bone Chip and &Bone_Chip_HQ; HQ Bone Chip."/>
+      <Gather While="not HasAtLeast(5432, &Bone_Chip;) or not HqHasAtLeast(5432, &Bone_Chip_HQ;)">
+        <GatherObject>Mineral Deposit</GatherObject>
+        <HotSpots>
+          <Hotspot Radius="90" XYZ="113.5488, 1.701878, 281.9428"/>
+        </HotSpots>
+        <Slot>5</Slot>
+        <GatheringSkillOrder>
+          <GatheringSkill ActionId="242" SpellName="Unearth" TimesToCast="1"/>
+        </GatheringSkillOrder>
+      </Gather>
+      <LogMessage Message="Bone Chip harvest complete. Moving to next task."/>
+      <WaitTimer WaitTime="5"/>
+    </If>
+  </Order>
+  
+  
+  
+
+
 
 
 
