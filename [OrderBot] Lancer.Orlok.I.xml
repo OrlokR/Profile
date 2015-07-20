@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Lancer Level I Log
+Author: Orlok
+Version 1.0
+Profile Order:
+-->
+
+<Profile>
+  <Name>Lancer</Name>
+  <KillRadius>50</KillRadius>
+  <!-->
+The area the profile will scout:
+<-->
+
+  <!-->Ladybug<-->
+  <GrindAreas>
+    <GrindArea name="Lancer_1_0">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="163.4073, -1.275483, -131.3364" name="Lancer_1_0" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="49" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Ground Squirrel<-->
+    <GrindArea name="Lancer_1_1">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="67.52578, 4.259843, -208.9212" name="Lancer_1_1" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="37" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Forest Funguar<-->
+    <GrindArea name="Lancer_1_2">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="163.4073, -1.275483, -131.3364" name="Lancer_1_2" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="47" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Miteling<-->
+    <GrindArea name="Lancer_1_3">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="279.5544, -23.96747, 238.3076" name="Lancer_1_3" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="9" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Opo-opo<-->
+    <GrindArea name="Lancer_1_4">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="342.7022, -4.153618, 171.194" name="Lancer_1_4" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="5" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Microchu<-->
+    <GrindArea name="Lancer_1_5">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="229.9076, -11.65319, 70.2677" name="Lancer_1_5" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="32" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+
+    <!-->Black Eft<-->
+    <GrindArea name="Lancer_1_6_0">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="233.3508, -12.29875, -24.44182" name="Lancer_1_6_0" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="196" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Bog Yarzon<-->
+    <GrindArea name="Lancer_1_6_1">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="194.9268, -10.24757, 52.09773" name="Lancer_1_6_1" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="197" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Hoglet<-->
+    <GrindArea name="Lancer_1_7">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="431.052, 30.82847, 103.5323" name="Lancer_1_7" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="195" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+
+    <!-->Anole<-->
+    <GrindArea name="Lancer_1_8_0">
+      <Hotspots>
+        <HotSpot Radius="100" XYZ="455.3217, 15.2918, -85.36971" name="Lancer_1_8_0" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="120" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Diremite<-->
+    <GrindArea name="Lancer_1_8_1">
+      <Hotspots>
+        <HotSpot Radius="100" XYZ="-84.09253, 1.741862, -143.145" name="Lancer_1_8_1" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="10" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Tree Slug<-->
+    <GrindArea name="Lancer_1_9">
+      <Hotspots>
+        <HotSpot Radius="100" XYZ="-429.2872, 11.3666, 296.4424" name="Lancer_1_9" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="39" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+    
+    
+    
+  </GrindAreas>
+
+  <Order>
+
+    <If Condition="not HuntRankCompleted(ClassJobType.Lancer,1)">
+      <If Condition="not HuntEntryCompleted(ClassJobType.Lancer,0)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Lancer_1_0" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Lancer,0)" />
+      </If>
+
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Lancer,1)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Lancer_1_1" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Lancer,1)" />
+      </If>
+
+
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Lancer,2)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Lancer_1_2" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Lancer,2)" />
+      </If>
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Lancer,3)">
+        <If Condition="not IsOnMap(154)">
+          <TeleportTo Name="Fallgourd Float" AetheryteId="7" />
+        </If>
+        <Grind grindRef="Lancer_1_3" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Lancer,3)" />
+      </If>
+
+
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Lancer,4)">
+        <If Condition="not IsOnMap(154)">
+          <TeleportTo Name="Fallgourd Float" AetheryteId="7" />
+        </If>
+        <Grind grindRef="Lancer_1_4" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Lancer,4)" />
+      </If>
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Lancer,5)">
+        <If Condition="not IsOnMap(154)">
+          <TeleportTo Name="Fallgourd Float" AetheryteId="7" />
+        </If>
+        <Grind grindRef="Lancer_1_5" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Lancer,5)" />
+      </If>
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Lancer,6)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Lancer_1_6_0" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Lancer,6,0)" />
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Lancer_1_6_1" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Lancer,6,1)" />
+      </If>
+
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Lancer,7)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Lancer_1_7" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Lancer,7)" />
+      </If>
+
+
+
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Lancer,8)">
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Lancer_1_8_0" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Lancer,8,0)" />
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Lancer_1_8_1" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Lancer,8,1)" />
+      </If>
+
+
+
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Lancer,9)">
+        <If Condition="not IsOnMap(152)">
+          <TeleportTo Name="The Hawthorne Hut" AetheryteId="4" />
+        </If>
+        <Grind grindRef="Lancer_1_9" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Lancer,9)" />
+      </If>
+
+
+
+    </If>
+
+  </Order>
+  <!-->
+This profile has been completed! Feel free to donate @ YoelR@Verizon.net for more profiles! 
+	<-->
+</Profile>
