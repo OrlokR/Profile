@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Marauder Level I Log
+Author: Orlok
+Version 1.0
+
+-->
+
+<Profile>
+  <Name>MarauderHunter</Name>
+  <KillRadius>50</KillRadius>
+  <!-->
+The area the profile will scout:
+<-->
+
+  <!-->Ladybug<-->
+  <GrindAreas>
+    <GrindArea name="Marauder_1_0">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="100.56, 47.97699, 74.48806" name="Marauder_1_0" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="49" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Wharf Rat<-->
+    <GrindArea name="Marauder_1_1">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="100.56, 47.97699, 74.48806" name="Marauder_1_1" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="417" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Aurelia<-->
+    <GrindArea name="Marauder_1_2">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="136.9739, 64.10368, 307.6936" name="Marauder_1_2" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="563" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Bee Cloud<-->
+    <GrindArea name="Marauder_1_3">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-16.99339, 52.55961, -129.6895" name="Marauder_1_3" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="395" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Wild Dodo<-->
+    <GrindArea name="Marauder_1_4">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="178.4111, 238.3294, 239.7138" name="Marauder_1_4" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="393" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Tiny Mandragora<-->
+    <GrindArea name="Marauder_1_5">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-16.99339, 52.55961, -129.6895" name="Marauder_1_5" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="405" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Bogy<-->
+    <GrindArea name="Marauder_1_6">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-55.98848, 34.97901, -80.14648" name="Marauder_1_6" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="404" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Wounded Aurochs<-->
+    <GrindArea name="Marauder_1_7">
+      <Hotspots>
+        <HotSpot Radius="100" XYZ="-157.9951, 44.84611, -209.5877" name="Marauder_1_7" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="358" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+
+    <!-->Grounded Raider<-->
+    <GrindArea name="Marauder_1_8">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-69.63588, 49.36312, -215.2778" name="Marauder_1_8" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="421" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Megalocrab<-->
+    <GrindArea name="Marauder_1_9">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-290.9871, 12.93597, -296.3633" name="Marauder_1_9" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="561" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+  </GrindAreas>
+
+
+
+
+
+  <Order>
+
+    <!-- Lady Bug -->
+    
+    <If Condition="not HuntRankCompleted(ClassJobType.Marauder,1)">
+      <If Condition="not HuntEntryCompleted(ClassJobType.Marauder,0)">
+        <If Condition="not IsOnMap(134)">
+          <TeleportTo Name="Summerford Farms" AetheryteId="52" />
+        </If>
+        <Grind grindRef="Marauder_1_0" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Marauder,0)" />
+      </If>
+
+      <!-- Wharf Rat -->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Marauder,1)">
+        <If Condition="not IsOnMap(134)">
+          <TeleportTo Name="Summerford Farms" AetheryteId="52" />
+        </If>
+        <Grind grindRef="Marauder_1_1" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Marauder,1)" />
+      </If>
+
+      <!-- Aurelia -->
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Marauder,2)">
+        <If Condition="not IsOnMap(135)">
+          <TeleportTo Name="Moraby Drydocks" AetheryteId="10" />
+        </If>
+        <Grind grindRef="Marauder_1_2" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Marauder,2)" />
+      </If>
+
+      <!-- Bee Cloud  -->
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Marauder,3)">
+        <If Condition="not IsOnMap(134)">
+          <TeleportTo Name="Summerford Farms" AetheryteId="52" />
+        </If>
+        <Grind grindRef="Marauder_1_3" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Marauder,3)" />
+      </If>
+
+      <!-- Wild Dodo --> 
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Marauder,4)">
+        <If Condition="not IsOnMap(135)">
+          <TeleportTo Name="Moraby Drydocks" AetheryteId="10" />
+        </If>
+        <Grind grindRef="Marauder_1_4" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Marauder,4)" />
+      </If>
+
+
+      <!-- Tiny Mandragora -->
+
+      <If Condition="not HuntEntryCompleted(ClassJobType.Marauder,5)">
+        <If Condition="not IsOnMap(134)">
+          <TeleportTo Name="Summerford Farms" AetheryteId="52" />
+        </If>
+        <Grind grindRef="Marauder_1_5" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Marauder,5)" />
+      </If>
+
+      <!-- Bogy -->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Marauder,6)">
+        <If Condition="not IsOnMap(134)">
+          <TeleportTo Name="Summerford Farms" AetheryteId="52" />
+        </If>
+        <Grind grindRef="Marauder_1_6" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Marauder,6)" />
+      </If>
+
+      <!-- Wounded Aurochs -->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Marauder,7)">
+        <If Condition="not IsOnMap(134)">
+          <TeleportTo Name="Summerford Farms" AetheryteId="52" />
+        </If>
+        <Grind grindRef="Marauder_1_7" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Marauder,7)" />
+      </If>
+
+
+
+      <!-- Grounded Raider -->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Marauder,8)">
+        <If Condition="not IsOnMap(134)">
+          <TeleportTo Name="Summerford Farms" AetheryteId="52" />
+        </If>
+        <Grind grindRef="Marauder_1_8" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Marauder,8)" />
+      </If>
+
+
+      <!-- Megalocrab -->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Marauder,9)">
+        <If Condition="not IsOnMap(134)">
+          <TeleportTo Name="Summerford Farms" AetheryteId="52" />
+        </If>
+        <Grind grindRef="Marauder_1_9" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Marauder,9)" />
+      </If>
+
+    </If>
+  </Order>
+  <!-->
+This profile has been completed! Feel free to donate @ YoelR@Verizon.net for more profiles! 
+	<-->
+</Profile>
