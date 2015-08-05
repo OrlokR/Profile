@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Gladiator Level I Log
+Author: Orlok
+Version 1.0
+Profile Order:
+-->
+
+<Profile>
+  <Name>Gladiator</Name>
+  <KillRadius>50</KillRadius>
+  <!-->
+The area the profile will scout:
+<-->
+
+  <!-->Ladybug<-->
+  <GrindAreas>
+    <GrindArea name="Gladiator_1_0">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="172.7345, 48.45842, 236.334" name="Gladiator_1_0" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="49" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Star Marmot<-->
+    <GrindArea name="Gladiator_1_1">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="6.28313, 0.0650, 255.6241" name="Gladiator_1_1" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="262" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Cactuar<-->
+    <GrindArea name="Gladiator_1_2">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="283.3794, 57.03001, 172.3862" name="Gladiator_1_2" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="287" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Snapping Shrew<-->
+    <GrindArea name="Gladiator_1_3">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="42.02078, 2.681707, 271.4321" name="Gladiator_1_3" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="318" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Hammer Beak<-->
+    <GrindArea name="Gladiator_1_4">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-180.7683, 1.266943, 0.8425727" name="Gladiator_1_4" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="282" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Antling Worker<-->
+    <GrindArea name="Gladiator_1_5">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-72.76057, -1.520344, 82.43008" name="Lancer_1_5" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="294" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Earth Sprite<-->
+    <GrindArea name="Gladiator_1_6">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="89.05131, 15.46826, 148.5675" name="Gladiator_1_6" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="113" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Spriggan Graverobber<-->
+    <GrindArea name="Gladiator_1_7">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-196.9646, -30.99975, 105.4476" name="Gladiator_1_7" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="317" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+    <!-->Qiqirn Shellsweeper <-->
+    <GrindArea name="Gladiator_1_8">
+      <Hotspots>
+        <HotSpot Radius="80" XYZ="-257.0747, 27.89835, -85.84393" name="Gladiator_1_8" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="266" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+
+    <!-->Antling Soldier<-->
+    <GrindArea name="Gladiator_1_9_0">
+      <Hotspots>
+        <HotSpot Radius="100" XYZ="135.7767, -0.4189895, -149.5923" name="Gladiator_1_9_0" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="292" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Dusty Mongrel<-->
+    <GrindArea name="Gladiator_1_9_1">
+      <Hotspots>
+        <HotSpot Radius="100" XYZ="-260.7026, -27.46153, 238.2627" name="Gladiator_1_9_1" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="302" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>    
+  </GrindAreas>
+
+  
+  <Order>
+
+
+    <!-->Ladybug<-->
+    <If Condition="not HuntRankCompleted(ClassJobType.Gladiator,1)">
+      <If Condition="not HuntEntryCompleted(ClassJobType.Gladiator,0)">
+        <If Condition="not IsOnMap(135)">
+          <TeleportTo Name="Moraby drydocks" AetheryteId="10" />
+        </If>
+        <Grind grindRef="Gladiator_1_0" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Gladiator,0)" />
+      </If>
+
+
+      <!-->Star Marmot<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Gladiator,1)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Gladiator_1_1" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Gladiator,1)" />
+      </If>
+
+
+      <!-->Cactuar<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Gladiator,2)">
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
+        </If>
+        <Grind grindRef="Gladiator_1_2" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Gladiator,2)" />
+      </If>
+
+
+      <!-->Snapping Shrew<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Gladiator,3)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Gladiator_1_3" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Gladiator,3)" />
+      </If>
+
+
+      <!-->Hammer Beak<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Gladiator,4)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Gladiator_1_4" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Gladiator,4)" />
+      </If>
+
+      <!-->Antling Worker<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Gladiator,5)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Gladiator_1_5" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Gladiator,5)" />
+      </If>
+
+      <!-->Earth Sprite<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Gladiator,6)">
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
+        </If>
+        <Grind grindRef="Gladiator_1_6" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Gladiator,6)" />
+      </If>
+
+
+      <!-->Spriggan Graverobber<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Gladiator,7)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Gladiator_1_7" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Gladiator,7)" />
+      </If>
+
+
+
+      <!-->Qiqirn Shellsweeper <-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Gladiator,8)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Gladiator_1_8" PostCombatDelay="3" while="not HuntEntryCompleted(ClassJobType.Gladiator,8)" />
+      </If>
+
+      <!-->Antling Soldier & Dusty Mongrel<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Gladiator,9)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Gladiator_1_9_0" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Gladiator,9,0)" />
+        <If Condition="not IsOnMap(145)">
+          <TeleportTo Name="Camp Drybone" AetheryteId="18" />
+        </If>
+        <Grind grindRef="Gladiator_1_9_1" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Gladiator,9,1)" />
+      </If>
+      
+    </If>
+
+  </Order>
+  <!-->
+This profile has been completed! Feel free to donate @ YoelR@Verizon.net for more profiles! 
+	<-->
+</Profile>
