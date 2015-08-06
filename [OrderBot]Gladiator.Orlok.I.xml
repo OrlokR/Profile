@@ -147,7 +147,7 @@ The area the profile will scout:
     <!-->Dusty Mongrel<-->
     <GrindArea name="Gladiator_1_9_1">
       <Hotspots>
-        <HotSpot Radius="100" XYZ="-260.7026, -27.46153, 238.2627" name="Gladiator_1_9_1" />
+        <HotSpot Radius="100" XYZ="80.03129, 58.65984, 18.52935" name="Gladiator_1_9_1" />
       </Hotspots>
       <TargetMobs>
         <TargetMob Id="302" />
@@ -247,8 +247,8 @@ The area the profile will scout:
           <TeleportTo Name="Black Brush Station" AetheryteId="53" />
         </If>
         <Grind grindRef="Gladiator_1_9_0" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Gladiator,9,0)" />
-        <If Condition="not IsOnMap(145)">
-          <TeleportTo Name="Camp Drybone" AetheryteId="18" />
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
         </If>
         <Grind grindRef="Gladiator_1_9_1" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Gladiator,9,1)" />
       </If>
