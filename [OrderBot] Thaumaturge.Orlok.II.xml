@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Thaumaturge Level I Log
+Author: Orlok
+Version 1.0
+-->
+
+<Profile>
+  <Name>ThaumaturgeHunter</Name>
+  <KillRadius>50</KillRadius>
+  <!-->
+The area the profile will scout:
+<-->
+
+
+  <GrindAreas>
+
+    <!-->Bomb<-->
+    <GrindArea name="Thaumaturge_2_0_0">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="288.1562, 62.10602, -195.5013" name="Thaumaturge_2_0_0" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="316" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->CopperCoblyn<-->
+    <GrindArea name="Thaumaturge_2_0_1">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="288.1562, 62.10602, -195.5013" name="Thaumaturge_2_0_1" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="277" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->QuiveronAttendant<-->
+    <GrindArea name="Thaumaturge_2_1_0">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="117.9099, 21.66466, -74.9388" name="Thaumaturge_2_1_0" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="330" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+    
+    <!-->CochinealCactuar<-->
+    <GrindArea name="Thaumaturge_2_1_1">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="117.9099, 21.66466, -74.9388" name="Thaumaturge_2_1_1" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="288" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+
+    <!-->GiantTortoise<-->
+    <GrindArea name="Thaumaturge_2_2_1">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="-65.93716, 54.69177, 327.9404" name="Thaumaturge_2_2_0" />
+        <HotSpot Radius="90" XYZ="1.995516, 53.91071, 259.0224" name="Thaumaturge_2_2_0" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="244" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->AntlingSentry<-->
+    <GrindArea name="Thaumaturge_2_2_0">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="-239.6878, -3.989987, -353.4456" name="Thaumaturge_2_2_1" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="293" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Thickshell <-->
+    <GrindArea name="Thaumaturge_2_3">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="-260.7073, 14.51385, -275.1208" name="Thaumaturge_2_3" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="636" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->ToxicToad <-->
+    <GrindArea name="Thaumaturge_2_4">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="270.6248, -19.71835, -100.6239" name="Thaumaturge_2_4" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="216" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->Tuco-tuco <-->
+    <GrindArea name="Thaumaturge_2_5">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="-254.8988, -36.82428, 134.2384" name="Thaumaturge_2_5" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="306" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->MyotragusNanny<-->
+    <GrindArea name="Thaumaturge_2_6">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="-284.6569, -34.48412, 87.12904" name="Thaumaturge_2_6" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="274" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->BlowflySwarm<-->
+    <GrindArea name="Thaumaturge_2_7">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="-466.5551, -26.99399, 74.94383" name="Thaumaturge_2_7" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="1199" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->RottingCorpse<-->
+    <GrindArea name="Thaumaturge_2_8">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="-323.7918, -10.78816, -248.0338" name="Thaumaturge_2_8" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="319" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+    <!-->BloatedBogy<-->
+    <GrindArea name="Thaumaturge_2_9">
+      <Hotspots>
+        <HotSpot Radius="90" XYZ="-431.8102, 22.99118, -481.8169" name="Thaumaturge_2_9" />
+      </Hotspots>
+      <TargetMobs>
+        <TargetMob Id="309" />
+      </TargetMobs>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>50</MaxLevel>
+    </GrindArea>
+
+
+
+  </GrindAreas>
+
+  <Order>
+    <If Condition="not HuntRankCompleted(ClassJobType.Thaumaturge,2)">
+
+
+      <!-->Bomb & CopperCoblyn<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Thaumaturge,0)">
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_0_0" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Thaumaturge, 2,0)" />
+        <If Condition="not IsOnMap(148)">
+          <TeleportTo Name="Bentbranch Meadows" AetheryteId="3" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_0_1" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Thaumaturge, 2,1)" />
+      </If>
+
+      <!-->CochinealCactuar & QuiveronAttendant<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Thaumaturge,1)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_1_0" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Thaumaturge, 2,0)" />
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_1_1" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Thaumaturge, 2,1)" />
+      </If>
+
+      <!-->AntlingSentry & GiantTortoise<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Thaumaturge,2)">
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_2_1" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Thaumaturge, 2,1)" />
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_2_0" PostCombatDelay="3" while="not HuntSubEntryCompleted(ClassJobType.Thaumaturge, 2,0)" />
+      </If>
+
+
+      <!-->Thickshell<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Thaumaturge,3)">
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_3" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Thaumaturge,3)" />
+      </If>
+
+      <!-->ToxicToad<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Thaumaturge,4)">
+        <If Condition="not IsOnMap(141)">
+          <TeleportTo Name="Black Brush Station" AetheryteId="53" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_4" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Thaumaturge,4)" />
+      </If>
+
+      <!-->Tuco-tuco<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Thaumaturge,5)">
+        <If Condition="not IsOnMap(145)">
+          <TeleportTo Name="Camp Drybone" AetheryteId="18" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_5" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Thaumaturge,5)" />
+      </If>
+
+      <!-->MyotragusNanny<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Thaumaturge,6)">
+        <If Condition="not IsOnMap(145)">
+          <TeleportTo Name="Camp Drybone" AetheryteId="18" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_6" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Thaumaturge,6)" />
+      </If>
+
+      <!-->BlowflySwarm<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Thaumaturge,7)">
+        <If Condition="not IsOnMap(145)">
+          <TeleportTo Name="Camp Drybone" AetheryteId="18" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_7" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Thaumaturge,7)" />
+      </If>
+
+      <!-->RottingCorpse<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Thaumaturge,8)">
+        <If Condition="not IsOnMap(145)">
+          <TeleportTo Name="Camp Drybone" AetheryteId="18" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_8" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Thaumaturge,8)" />
+      </If>
+      
+      
+      <!-->BloatedBogy<-->
+      <If Condition="not HuntEntryCompleted(ClassJobType.Thaumaturge,9)">
+        <If Condition="not IsOnMap(140)">
+          <TeleportTo Name="Horizon" AetheryteId="17" />
+        </If>
+        <Grind grindRef="Thaumaturge_2_9" PostCombatDelay="5" while="not HuntEntryCompleted(ClassJobType.Thaumaturge,9)" />
+      </If>
+
+    </If>
+  </Order>
+  <!-->
+This profile has been completed! Feel free to donate @ YoelR@Verizon.net for more profiles! 
+	<-->
+</Profile>
